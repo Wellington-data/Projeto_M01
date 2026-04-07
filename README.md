@@ -452,7 +452,7 @@ Este projeto demonstra, na prática:
 
 Mais do que um exercício técnico, este projeto representa a transição de:
 
-//  “armazenar dados” → “gerar inteligência de negócio” //
+ “armazenar dados” → “gerar inteligência de negócio” 
 
 
 💡 Conclusão
