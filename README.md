@@ -26,10 +26,7 @@ Este projeto implementa uma solução completa de dados:
 1. Cada imóvel pertence a um único bairro  
 2. Um imóvel pode ter várias avaliações  
 3. Cada avaliação pertence a um imóvel  
-4. Receita estimada:
-
-> price * (365 - availability_365)
-
+4. Receita estimada
 5. Alta disponibilidade = baixa demanda  
 6. Baixa receita = baixo desempenho  
 
@@ -460,8 +457,6 @@ Em um cenário orientado por dados, a diferença não está em quem possui mais 
 Este projeto é um passo nessa direção.
 
 ---
-
-
 
 👤 Autor
 Wellington dos Santos
