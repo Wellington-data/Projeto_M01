@@ -354,7 +354,9 @@ GROUP BY da.host_id, da.host_name
 HAVING COUNT(*) >= 5
 ORDER BY media_receita_estimativa ASC, media_disponibilidade DESC
 LIMIT 100;
-
+```
+![Anfitriões com portfólio pouco eficiente](https://github.com/user-attachments/assets/bd95fe06-6ed5-4d03-8f9f-6b67540780d1)
+```
 🔻 Bairros com baixa atratividade
 
 Problema de negócio:
@@ -377,6 +379,9 @@ INNER JOIN data_warehouse.dim_listings dl
 GROUP BY dl.nome_bairro, dl.nome_cidade
 HAVING COUNT(*) >= 5
 ORDER BY media_disponibilidade DESC, media_receita_estimativa ASC;
+```
+![Regiões onde os imóveis ficam mais tempo disponíveis e geram menos receita](https://github.com/user-attachments/assets/230bf91f-11d8-4024-8271-c2640a5e816b)
+
 
 
 _______________________________________________________________________________________________________________________________
